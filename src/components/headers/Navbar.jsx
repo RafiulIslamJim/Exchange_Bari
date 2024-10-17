@@ -16,6 +16,8 @@ const Navbar = () => {
           <div className="flex items-center gap-5">
             <div className="flex-shrink-0">
              <Link to='/'> <img className="h-10 w-auto" src={logo} alt="Exchange Bari" /></Link>
+              <p className='md:hidden text-gray-500 text-sm'>Work time: ২৪ ঘন্টা খোলা - - (BD)
+              </p>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">

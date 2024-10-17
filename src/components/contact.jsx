@@ -31,7 +31,7 @@ const ContactForm = () => {
           </div>
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-4 ml-20 col-span-1 md:col-span-5">
+          <form onSubmit={handleSubmit} className="space-y-4 lg:ml-20 col-span-1 md:col-span-5 ">
             <div>
               <label className="block font-bold text-gray-500">Your name</label>
               <input
